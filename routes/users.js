@@ -6,5 +6,5 @@ router.get('/profile',usercontroller.profile);
 router.get('/points',usercontroller.profilepoints);
 router.get('/sign-up',usercontroller.signUp);
 router.get('/sign-in',usercontroller.signIn);
-
+router.post('/create',usercontroller.create);
 module.exports=router;
